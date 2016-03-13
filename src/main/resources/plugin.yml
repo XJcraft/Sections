@@ -1,0 +1,43 @@
+name: Sections
+main: org.jim.section.SectionPlugin
+description: what the fuck!
+author: jim_
+version: 1.2.0
+commands:
+   sec: 
+      usage: /<command> [options]
+      permission-message: You dont have <permission>
+   section: 
+      usage: /<command> [options]
+      permission-message: You dont have <permission>
+permissions: 
+  section.create: 
+    default: op
+  section.set: 
+    default: op
+  section.reload: 
+    default: op
+  section.del: 
+    default: op
+  section.load: 
+    default: true
+  section.loadall: 
+    default: true
+  section.save: 
+    default: true
+  section.saveall: 
+    default: true
+  section.join: 
+    default: true
+  section.leave: 
+    default: true
+  section.exit: 
+    default: true
+  section.tp: 
+    default: true
+  section.saveall: 
+    default: true
+  section.help: 
+    default: true
+  section.list: 
+    default: true
