@@ -2,8 +2,8 @@ package org.jim.section.cmds;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jim.section.SectionManager;
 import org.jim.section.Section;
+import org.jim.section.SectionManager;
 import org.jim.section.util.Utility;
 
 public class Exit extends SubCommand {

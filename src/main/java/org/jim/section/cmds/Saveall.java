@@ -2,8 +2,6 @@ package org.jim.section.cmds;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jim.section.SectionManager;
-import org.jim.section.Section;
 
 public class Saveall extends SubCommand {
 

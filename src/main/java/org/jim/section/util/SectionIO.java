@@ -6,10 +6,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
-import org.jim.section.SectionManager;
 import org.jim.section.Section;
+import org.jim.section.SectionManager;
 import org.jim.section.SectionPlugin;
 
 public class SectionIO {

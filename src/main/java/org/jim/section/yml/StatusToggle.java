@@ -1,5 +1,8 @@
 package org.jim.section.yml;
 
+import java.io.File;
+import java.util.Collection;
+
 import org.bukkit.GameMode;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
@@ -7,9 +10,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.jim.section.Section;
 import org.jim.section.SectionPlugin;
-
-import java.io.File;
-import java.util.Collection;
 
 public class StatusToggle {
 

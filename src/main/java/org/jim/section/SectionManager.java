@@ -1,25 +1,18 @@
 package org.jim.section;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
 import org.apache.commons.lang.StringUtils;
-import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
-import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.entity.Player;
 import org.jim.section.util.LeaveQueue;
 import org.jim.section.util.Log;
 import org.jim.section.util.SectionIO;
-
-import com.google.common.collect.Maps;
 
 public class SectionManager {
 
