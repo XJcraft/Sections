@@ -2,7 +2,6 @@ package org.jim.section.util;
 
 import java.io.File;
 import java.io.FilenameFilter;
-import java.io.Serializable;
 
 public class YmlFilter implements FilenameFilter {
 

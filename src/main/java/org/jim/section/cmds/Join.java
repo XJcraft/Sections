@@ -1,9 +1,9 @@
 package org.jim.section.cmds;
 
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.jim.section.SectionManager;
 import org.jim.section.Section;
+import org.jim.section.SectionManager;
+import org.jim.section.util.InventoryUtil;
 import org.jim.section.util.Utility;
 
 public class Join extends SubCommand {
@@ -21,6 +21,10 @@ public class Join extends SubCommand {
 		String name = Utility.get(args, 0);
 		if (name == null)
 			return false;
+		if(!InventoryUtil.inventoryEmpty(player)) {
+			player.sendMessage("§c请先清空背包和末影箱再入坑");
+			return true;
+		}
 		Section sec = SectionManager.me().getSection(name);
 		if (sec == null) {
 			player.sendMessage("§c没有这个坑吧...");
